@@ -73,6 +73,11 @@ set confirm
 " display status line
 set laststatus=2
 " height of status line
-set cmdheight=2
+set cmdheight=1
 " backspace to deal with indent
 set backspace=2
+" show the cmd
+set showcmd
+" unicode set
+set enc=utf-8
+set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
