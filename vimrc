@@ -81,3 +81,6 @@ set showcmd
 " unicode set
 set enc=utf-8
 set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
+" auto indent
+set autoindent
+set smartindent
