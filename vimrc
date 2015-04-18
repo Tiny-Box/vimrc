@@ -52,6 +52,22 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle to master Vundle
+Bundle 'gmarik/vundle'
+
+" my bundles here:
+
+Plugin 'mattn/emmet-vim'
+
+filetype plugin indent on
+
+
 " about display
 colorscheme desert
 " width of tab
